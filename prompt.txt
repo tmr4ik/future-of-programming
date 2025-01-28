@@ -1,0 +1,74 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2820
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red78\green78\blue78;\red239\green239\blue239;}
+{\*\expandedcolortbl;;\cssrgb\c38039\c38039\c38039;\cssrgb\c94902\c94902\c94902;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 help me write a program called Pentos that is an animated game similar to Tetris but with 12 pieces described below, under the following conditions:\
+\
+Gameplay\
+the game is composed of a field of play in which pieces of 12 different geometric forms, called pentominoes (each of a different vibrant color), descend from the top of the field. During this descent, the player can move the pieces laterally (using arrow keys of the keyboard) and rotate them until they touch the bottom of the field or land on a piece that had been placed before it. The player can neither slow down the falling pieces nor stop them, but can accelerate them by using the downward arrow key. The objective of the game is to use the pieces to create as many complete horizontal lines of blocks as possible. When a line is completed, it disappears, and the blocks placed above fall one rank. Completing lines grants points, and accumulating a certain number of points or cleared lines moves the player up a level, which increases the number of points granted per completed line.\
+\
+the speed of the falling pieces increases with each level, leaving the player with less time to think about the placement. The player can clear multiple lines at once, which can earn bonus points. It is possible to complete up to five lines simultaneously with the use of the I-shaped pentomino, this move is called Pentos.\
+\
+If the player cannot make the blocks disappear quickly enough, the field will start to fill; when the pieces reach the top of the field and prevent the arrival of additional pieces, the game ends. At the end of each game, the player receives a score based on the number of lines that have been completed. The game never ends with the player's victory, as the player can complete only as many lines as possible before an inevitable loss.\
+\
+Game pieces\
+F (Purple)\
+\
+Asymmetrical and shaped like a distorted "F".\
+Reflective and rotational symmetry.\
+I (Blue)\
+\
+A straight line of 5 squares, resembling a bar or stick.\
+Rotational symmetry.\
+L (Orange)\
+\
+Shaped like an "L" with 4 squares in a line and one square extending from the end.\
+Asymmetrical, with rotations possible.\
+N (Teal)\
+\
+Similar to a "Z" or "N", with a zigzag structure.\
+Asymmetrical, resembling a flipped "L".\
+P (Pink)\
+\
+Looks like a "P" with 4 squares forming a block and one square sticking out.\
+Asymmetrical and compact.\
+T (Yellow)\
+\
+Resembles the letter "T", with a horizontal bar of 3 squares and 2 squares forming a vertical stem.\
+Rotational symmetry.\
+U (Green)\
+\
+A U-shaped piece with a 2x2 block missing one inner square.\
+Rotational symmetry.\
+V (Light Brown)\
+\
+Shaped like a "V" with 3 squares forming a straight diagonal and 2 forming the arms.\
+Rotational symmetry.\
+W (Light Blue)\
+\
+A zigzag shape resembling a "W".\
+Asymmetrical.\
+X (Red)\
+\
+A perfect cross, with one square in the center and four extending outward.\
+Full rotational and reflective symmetry.\
+Y (Gray)\
+\
+Looks like a "Y" with one long straight arm and 3 shorter arms branching from the top.\
+Asymmetrical.\
+Z (Brown)\
+\
+Shaped like a "Z" with a wider middle section.\
+Asymmetrical.\
+\
+Scoring\
+The scoring formula is built on the idea that more difficult line clears should be awarded more points. For example, a single line clear in Pentos Zone is worth 100 points, clearing five lines at once (known as a Pentos) is worth 800, while each subsequent back-to-back Pentos is worth 1,200. In conjunction, players can be awarded combos that exist in certain games which reward multiple line clears in quick succession. The exact combo system is open to improvisation.\
+\
+the game allows the player to increase the speed of the current piece's descent (down arrow key) or cause the piece to drop and lock into place immediately (space bar), known as a "soft drop" and a "hard drop", respectively. the game awards a number of points based on the height that the piece fell before locking, so using the hard drop generally awards more points.
+\fs21 \cb1 \
+}

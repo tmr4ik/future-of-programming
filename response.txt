@@ -1,0 +1,57 @@
+I've created a complete implementation of the Pentos game! Let me explain the key components:
+
+pieces.py:
+Defines all 12 pentominoes using numpy arrays
+Each piece has a unique color and shape
+Includes rotation and manipulation methods
+Implements piece collision detection
+main.py:
+Implements the core game mechanics
+Features:
+Piece movement (left/right/down)
+Rotation with wall kick system
+Hard drop and soft drop
+Score tracking
+Level progression
+Next piece preview
+Game over detection
+Increasing difficulty (speed) with levels
+Scoring system:
+Single line: 100 points × level
+Double line: 300 points × level
+Triple line: 500 points × level
+Quadruple line: 700 points × level
+Pentos (5 lines): 800 points × level
+Soft drop: 1 point per cell
+Hard drop: 2 points per cell
+
+~ after installing dependencies ~
+
+Great! The game should now be running. Here's how to play:
+
+Controls:
+
+Left/Right Arrow: Move piece horizontally
+Up Arrow: Rotate piece
+Down Arrow: Soft drop (accelerate descent, 1 point per cell)
+Space: Hard drop (instant placement, 2 points per cell)
+Features:
+
+12 unique pentominoes, each with a different vibrant color
+Next piece preview
+Score tracking
+Level progression (speed increases with each level)
+Line clearing with bonus points for multiple lines
+Game over detection
+Scoring System:
+
+Single line: 100 points × level
+Double line: 300 points × level
+Triple line: 500 points × level
+Quadruple line: 700 points × level
+Pentos (5 lines): 800 points × level
+Soft drop: 1 point per cell
+Hard drop: 2 points per cell
+The game will continue until pieces reach the top of the screen. Try to achieve the highest score possible by clearing multiple lines at once and using efficient piece placements!
+
+Let me know if you'd like any modifications to the game or if you encounter any issues while playing!
